@@ -1,0 +1,2 @@
+*WORKSHOP filter=lfs diff=lfs merge=lfs -text
+assets/images/WORKSHOP_ESTHEVAN_BRONDI.MP4 filter=lfs diff=lfs merge=lfs -text

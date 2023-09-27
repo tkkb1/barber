@@ -48,6 +48,7 @@
   --ff-rubik: 'Rubik', sans-serif;
 
   --fs-40: 4rem;
+  --fs-35: 6rem;
   --fs-30: 3rem;
   --fs-24: 2.4rem;
   --fs-18: 1.8rem;
@@ -165,8 +166,6 @@ body {
 ::-webkit-scrollbar-thumb { background-color: hsl(0, 0%, 80%); }
 
 ::-webkit-scrollbar-thumb:hover { background-color: hsl(0, 0%, 70%); }
-
-
 
 
 
@@ -434,6 +433,9 @@ body {
   color: var(--indian-yellow);
   font-size: 70px;
   line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .service-card .card-title {
@@ -1391,3 +1393,21 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
   .back-top-btn { padding: 15px; }
 
 }
+
+.videoType{
+  text-align: center;
+  font-size: var(--fs-35);
+  color: var(--eerie-black-1);
+  text-transform: uppercase;
+  margin: 30px;
+} 
+
+#myVideo {
+  width: 1358px; /* Largura do vídeo */
+  height: 600px; /* Altura do vídeo */
+  display: flex;
+  justify-content: center;
+  text-align: center; 
+  margin: 50px; padding: 0%;
+}
+
