@@ -22,8 +22,8 @@
 
   --rich-black-fogra-39_50: hsla(0, 0%, 5%, 0.5);
   --rich-black-fogra-39: hsl(0, 0%, 5%);
-  --indian-yellow_10: hsl(40, 5%, 34%);;
-  --indian-yellow: hsl(33, 8%, 28%);
+  --indian-yellow_10: hsl(0, 0%, 0%);;
+  --indian-yellow: hsl(20, 8%, 8%);
   --harvest-gold: hsl(33, 8%, 21%);
   --eerie-black-1: hsl(0, 0%, 14%);
   --eerie-black-2: hsl(0, 0%, 12%);
@@ -545,7 +545,8 @@ body {
   overflow: hidden;
 }
 
-.pricing-card .wrapper { order: 1; }
+.pricing-card .wrapper { order: 1;}
+ 
 
 .pricing-card .h3 {
   --fs-24: 2rem;
@@ -553,7 +554,7 @@ body {
 }
 
 .pricing-card .card-price {
-  color: var(--indian-yellow);
+  color: whitesmoke;
   font-family: var(--ff-oswald);
   font-size: var(--fs-30);
   font-weight: var(--fw-500);
@@ -1383,6 +1384,10 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
    */
 
   .footer-link-box { grid-template-columns: 0.5fr 0.5fr 1fr 0.8fr; }
+  .fontFooter{
+    color: var(--white);
+   
+  }
 
 
 
@@ -1397,7 +1402,7 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 .videoType{
   text-align: center;
   font-size: var(--fs-35);
-  color: var(--eerie-black-1);
+  color: var(--white);
   text-transform: uppercase;
   margin: 30px;
 } 
@@ -1409,5 +1414,13 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
   justify-content: center;
   text-align: center; 
   margin: 50px; padding: 0%;
+}
+
+.ytVideo{
+  background-color: black;
+}
+
+.colorFont{
+  color: aliceblue;
 }
 
