@@ -821,6 +821,7 @@ textarea.input-field {
   align-items: flex-start;
   gap: 10px;
   margin-block-start: 10px;
+ 
 }
 
 .footer-list-item ion-icon {
@@ -846,7 +847,7 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 
 .copyright-link {
   display: inline-block;
-  color: var(--indian-yellow);
+  color: var(--white);
 }
 
 
