@@ -89,3 +89,21 @@ const filter = function () {
 }
 
 addEventOnElem(filterBtns, "click", filter);
+
+/**
+ * direcionamento dos botoes
+ */
+
+  document.querySelector('a[href="#services"]').addEventListener('click', function (e) {
+    e.preventDefault(); // Evita o comportamento padrão do link
+    const secaoDestino = document.querySelector('#services');
+    secaoDestino.scrollIntoView({ behavior: 'smooth' }); // Rola até a seção de destino suavemente
+  });
+
+  document.querySelector('a[href="#pricing"]').addEventListener('click', function (e) {
+    e.preventDefault(); // Evita o comportamento padrão do link
+    const secaoDestino = document.querySelector('#pricing');
+    secaoDestino.scrollIntoView({ behavior: 'smooth' }); // Rola até a seção de destino suavemente
+  });
+
+
