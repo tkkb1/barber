@@ -1409,12 +1409,13 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 } 
 
 #myVideo {
-  width: 1358px; /* Largura do vídeo */
-  height: 600px; /* Altura do vídeo */
+  width: 80%;
+  height: 100%;
   display: flex;
   justify-content: center;
-  text-align: center; 
-  margin: 50px; padding: 0%;
+  align-items: center;
+
+ 
 }
 
 .ytVideo{
