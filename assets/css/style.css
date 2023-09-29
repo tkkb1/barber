@@ -1387,6 +1387,9 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
   .footer-link-box { grid-template-columns: 0.5fr 0.5fr 1fr 0.8fr; }
   .fontFooter{
     color: var(--white);
+    font-size: 100%;
+    align-items: center;
+    text-align: center;
    
   }
 
@@ -1407,16 +1410,14 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
   text-transform: uppercase;
   margin: 30px;
 } 
-
-#myVideo {
-  width: 80%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* 
+#myVideo {.
 
  
-}
+  
+
+ 
+} */
 
 .ytVideo{
   background-color: black;
