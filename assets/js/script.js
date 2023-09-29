@@ -94,21 +94,27 @@ addEventOnElem(filterBtns, "click", filter);
  * direcionamento dos botoes
  */
 
-  document.querySelector('a[href="#services"]').addEventListener('click', function (e) {
-    e.preventDefault(); 
-    const secaoDestino = document.querySelector('#services');
-    secaoDestino.scrollIntoView({ behavior: 'smooth' }); 
-  });
-
-  document.querySelector('a[href="#pricing"]').addEventListener('click', function (e) {
-    e.preventDefault(); 
-    const secaoDestino = document.querySelector('#pricing');
-    secaoDestino.scrollIntoView({ behavior: 'smooth' }); 
-  });
-
+  function scrollToSection(destinationId) {
+    const secaoDestino = document.querySelector(destinationId);
+    if (secaoDestino) {
+      secaoDestino.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+  
   document.querySelector('a[href="#workshop"]').addEventListener('click', function (e) {
-    e.preventDefault(); 
-    const secaoDestino = document.querySelector('#workshop');
-    secaoDestino.scrollIntoView({ behavior: 'smooth' }); 
+    e.preventDefault();
+    scrollToSection('#workshop');
+  });
+  
+  document.querySelector('a[href="#pricing"]').addEventListener('click', function (e) {
+    e.preventDefault();
+    scrollToSection('#pricing');
   });
 
+  document.querySelector('a[href="#visagismoId"]').addEventListener('click', function (e) {
+    e.preventDefault();
+    scrollToSection('#visagismoDs');
+  });
+  
+  // Você pode adicionar mais links aqui, se necessário, usando a mesma estrutura.
+  
