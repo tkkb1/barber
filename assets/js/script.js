@@ -57,6 +57,7 @@ addEventOnElem(window, "scroll", headerActive);
 
 
 
+
 /**
  * filter function
  */
@@ -88,3 +89,26 @@ const filter = function () {
 }
 
 addEventOnElem(filterBtns, "click", filter);
+
+/**
+ * direcionamento dos botoes
+ */
+
+  document.querySelector('a[href="#services"]').addEventListener('click', function (e) {
+    e.preventDefault(); 
+    const secaoDestino = document.querySelector('#services');
+    secaoDestino.scrollIntoView({ behavior: 'smooth' }); 
+  });
+
+  document.querySelector('a[href="#pricing"]').addEventListener('click', function (e) {
+    e.preventDefault(); 
+    const secaoDestino = document.querySelector('#pricing');
+    secaoDestino.scrollIntoView({ behavior: 'smooth' }); 
+  });
+
+  document.querySelector('a[href="#workshop"]').addEventListener('click', function (e) {
+    e.preventDefault(); 
+    const secaoDestino = document.querySelector('#workshop');
+    secaoDestino.scrollIntoView({ behavior: 'smooth' }); 
+  });
+
