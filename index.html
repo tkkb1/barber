@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" xmlns="http://www.w3.org/1999/html">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -11,7 +11,7 @@
   -->
   <title>Brond's</title>
   <meta name="title" content="Barber - Barbers & Hair Cutting">
-  <meta name="description" content="This is a barber html template made by codewithsadee">
+  <meta name="description" content="This is a barber html template made by Caio Messa & Matheus Fukase">
 
   <!-- 
     - favicon
@@ -37,17 +37,16 @@
   -->
   <link rel="stylesheet" href="assets/css/flaticon.min.css">
 
-  <!-- 
-    - preload images
-  -->
-  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+
 
 </head>
 
 <body id="top">
 
   <!-- 
-    - #HEADER
+    - #HEADER/cabeçalho
+
   -->
 
   <header class="header">
@@ -198,7 +197,7 @@
 
 
   <!-- 
-        - #SERVICE
+        - #Serviços
       -->
 
   <section class="section service" id="services" aria-label="services">
@@ -355,7 +354,7 @@
 
 
   <!-- 
-        - #PRICING
+        - #Preços
       -->
 
   <section class="section pricing has-bg-image has-before" id="pricing" aria-label="pricing"
@@ -592,7 +591,7 @@
 
 
   <!-- 
-        - #GALLERY
+        - #Galeria de fotos
       -->
 
   <section class="section gallery" id="gallery" aria-label="photo gallery">
@@ -603,10 +602,7 @@
         <div>
           <h2 class="h2 section-title">Galeria de Fotos</h2>
 
-          <p class="section-text">
-            Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua
-            suspendisse
-          </p>
+         
         </div>
 
         <a href="#" class="btn has-before">
@@ -741,96 +737,161 @@
           </p>
           <li>
             <div class="gallery-card">
-  
+
               <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
-                <img src="./assets/images/ESTHEVAN_BRONDS-58.JPG" width="422" height="550"
+                <img src="./assets/images/test.jpeg" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                  class="img-cover">
+              </figure>
+              <div class="card-content">
+                <h3 class="h3 card-title">Cortes</h3>
+                <p class="card-text">Brond's Barbearia</p>
+                <a href="#" class="card-btn" aria-label="Read more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="gallery-card">
+              <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                <img src="./assets/images/ESTHEVAN_BRONDS-51.JPG" width="422" height="550" loading="lazy"
+                  alt="Hair Cutting" class="img-cover">
+              </figure>
+              <div class="card-content">
+                <h3 class="h3 card-title">Barba</h3>
+                <p class="card-text">Brond's Barbearia</p>
+                <a href="#" class="card-btn" aria-label="Read more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="gallery-card">
+              <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                <img src="./assets/images/388F3E99-C817-4BE6-BB10-FB656B0997E0.JPG" width="422" height="550"
                   loading="lazy" alt="Hair Cutting" class="img-cover">
               </figure>
-  
-            
-  
-              
-                
-  
+              <div class="card-content">
+                <h3 class="h3 card-title">Químicas</h3>
+                <p class="card-text">Brond's Barbearia</p>
+                <a href="#" class="card-btn" aria-label="Read more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
               </div>
-  
-          
-  
-             
-      <!-- </div>
-      <div class="imgContainer">
-      <img class="visagismoImg" src="./assets/images/ESTHEVAN_BRONDS-57.JPG" alt="">
-      <img class="visagismoImg" src="./assets/images/ESTHEVAN_BRONDS-65.JPG" alt="">
-    </div> -->
-    
+            </div>
+          </li>
 
-    </section>
+          <li>
+            <div class="gallery-card">
+
+              <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                <img src="/assets/images/388F3E99-C817-4BE6-BB10-FB656B0997E0.JPG" width="422" height="550"
+                  loading="lazy" alt="Hair Cutting" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3 card-title">Workshops</h3>
+
+                <p class="card-text">Brond's Barbearia</p>
+
+                <a href="#" class="card-btn" aria-label="Read more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+
+            </div>
+          </li>
+        </ul>
+      </div>
 
 
 
+      <!-- workshop -->
 
 
-    <!-- 
-    - #FOOTER
-  -->
+      <section>
+        <div class="ytVideo">
+          <h2 class="videoType">WORKSHOP</h2>
+          <p class="section-text"></p>
+          <iframe id="myVideo" src="https://www.youtube.com/embed/xXuDMMDU2r4" frameborder="0"></iframe>
+        </div>
+      </section>
 
-    <footer class="footer has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
-      <div class="container">
 
-        <div class="footer-top">
 
-          <div class="footer-brand">
+      <!-- visagismo -->
+      <section class="section gallery" id="gallery" aria-label="photo gallery">
+        <div class="container">
 
-            <a href="#" class="logo">
-              <img src="./assets/images/logoo.jpg">
+          <div class="title-wrapper">
 
-            </a>
-            <img src="./assets/images/barber (1).png" alt="">
-            <p>
-            <h2 class="fontFooter"> Orgulhosos em deixar você mais confiante !</h2>
-            </p>
+            <div>
+              <h2 class="h2 section-title VISAGISMO">Descubra o Poder do Visagismo</h2>
+
+              <p class="section-text">
+                O visagismo é mais do que uma simples técnica de beleza, é uma verdadeira arte de revelar a essência
+                única de cada pessoa. Essa abordagem personalizada considera suas características físicas, traços e
+                personalidade para criar uma imagem que reflete quem você é. Explore os segredos do visagismo e descubra
+                como ele pode realçar sua beleza de maneira autêntica e empoderadora. É hora de se expressar e brilhar
+                como você é!
+              </p>
+            </div>
+
+       
+
           </div>
 
-
-
-          <ul class="footer-list">
+          <ul class="grid-list">
 
             <li>
-              <p class="footer-list-title">Entre Em Contato</p>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/test.jpeg" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                    class="img-cover">
+                </figure>
+              </div>
             </li>
 
-            <li class="footer-list-item">
-              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
 
-              <address class="contact-link">
-                Rua Engenheiro Isaac Garcez, 151, 09619-110, São Bernardo do Campo
-              </address>
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/ESTHEVAN_BRONDS-51.JPG" width="422" height="550" loading="lazy"
+                    alt="Hair Cutting" class="img-cover">
+                </figure>
+              </div>
             </li>
 
-            <li class="footer-list-item">
-              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
 
-              <a href="tel:11975437842" class="contact-link">(11) 97543-7842</a>
+            <li>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/388F3E99-C817-4BE6-BB10-FB656B0997E0.JPG" width="422" height="550"
+                    loading="lazy" alt="Hair Cutting" class="img-cover">
+                </figure>
+              </div>
             </li>
 
-            <li class="footer-list-item">
-              <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
-              <span class="contact-link">Terça - Sabado, 9:00- 20:00</span>
-            </li>
-
-            <li class="footer-list-item">
-              <img src="./assets/images/iconeBooksy (3).png" alt="">
-
-              <a href="https://booksy.com/pt-br/5455_barbearia-brond-s_barbearias_1042868_sao-bernardo-do-campo"
-                class="contact-link">Agende um serviço</a>
+            <li>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="/assets/images/388F3E99-C817-4BE6-BB10-FB656B0997E0.JPG" width="422" height="550"
+                    loading="lazy" alt="Hair Cutting" class="img-cover">
+                </figure>
+              </div>
             </li>
 
           </ul>
 
         </div>
 
-      </div>
 
       <div class="footer-bottom">
         <p class="copyright">
@@ -845,28 +906,28 @@
 
 
 
-    <!-- 
+      <!-- 
     - #BACK TO TOP
   -->
 
-    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
-      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
-    </a>
+      <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+      </a>
 
 
 
 
 
-    <!-- 
+      <!-- 
     - custom js link
   -->
-    <script src="./assets/js/script.js" defer></script>
+      <script src="./assets/js/script.js" defer></script>
 
-    <!-- 
+      <!-- 
     - ionicon link
   -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

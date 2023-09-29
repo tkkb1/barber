@@ -45,7 +45,7 @@
    * typography
    */
 
-  --ff-oswald : 'Oswald', sans-serif;
+  --ff-oswald: 'Oswald', sans-serif;
   --ff-rubik: 'Rubik', sans-serif;
 
   --fs-40: 4rem;
@@ -1400,14 +1400,16 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 
 #myVideo {
   height: 100vh;
-  width: 50%;
+  width: 100vh;
 }
 
 .videoTxt{
   display: flex;
+  text-align: center;
 }
 
 .ytVideo{
+  overflow: hidden; 
   background-color: black;
 }
 
@@ -1419,10 +1421,11 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 /* visagismo */
 
 .visagismo{
-  font-size: var(--fs-35);
+  font-family: 'Times New Roman', Times, serif;
+  font-size:80px ;
   text-align: center;
   color: var(--indian-yellow);
- margin: 2%;
+  margin: 2%;
 }
 .content{
   display: flex;
@@ -1436,7 +1439,8 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 }
 
 .visagismoImg{
-  height: 50%;
+  width: auto;
+  height: auto;
   max-width: 100%;
 
   
@@ -1444,14 +1448,16 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 }
 .visagismoTxt{
   color: var(--indian-yellow);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
 
 
 }
-
+ .txt
 
 
 /**
-   * FOOTER
+   * FOOTER/rodapé
    */
 
    .footer-link-box { grid-template-columns: 0.5fr 0.5fr 1fr 0.8fr; }
