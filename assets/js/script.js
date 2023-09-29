@@ -101,9 +101,9 @@ addEventOnElem(filterBtns, "click", filter);
     }
   }
   
-  document.querySelector('a[href="#workshop"]').addEventListener('click', function (e) {
+  document.querySelector('a[href="#workshopId"]').addEventListener('click', function (e) {
     e.preventDefault();
-    scrollToSection('#workshop');
+    scrollToSection('#workshopDs');
   });
   
   document.querySelector('a[href="#pricing"]').addEventListener('click', function (e) {
@@ -116,5 +116,5 @@ addEventOnElem(filterBtns, "click", filter);
     scrollToSection('#visagismoDs');
   });
   
-  // Você pode adicionar mais links aqui, se necessário, usando a mesma estrutura.
+ 
   
