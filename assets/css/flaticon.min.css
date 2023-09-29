@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: flaticon;
-    src: url("../fonts/flaticon.ttf?798b834cf6f35b1643f2eaed810e30d2") format("truetype"), url("../fonts/flaticon.woff?798b834cf6f35b1643f2eaed810e30d2") format("woff"), url("../fonts/flaticon.woff2?798b834cf6f35b1643f2eaed810e30d2") format("woff2"), url("../fonts/flaticon.eot?798b834cf6f35b1643f2eaed810e30d2#iefix") format("embedded-opentype"), url("../fonts/flaticon.svg?798b834cf6f35b1643f2eaed810e30d2#flaticon") format("svg")
+    src: url("../fonts/flaticon.ttf?798b834cf6f35b1643fgit statoss2eaed810e30d2") format("truetype"), url("../fonts/flaticon.woff?798b834cf6f35b1643f2eaed810e30d2") format("woff"), url("../fonts/flaticon.woff2?798b834cf6f35b1643f2eaed810e30d2") format("woff2"), url("../fonts/flaticon.eot?798b834cf6f35b1643f2eaed810e30d2#iefix") format("embedded-opentype"), url("../fonts/flaticon.svg?798b834cf6f35b1643f2eaed810e30d2#flaticon") format("svg")
 }
 
 i[class*=" flaticon-"]:before,

@@ -1379,22 +1379,6 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
   .appoin-card .card-content { flex-grow: 1; }
 
 
-
-  /**
-   * FOOTER
-   */
-
-  .footer-link-box { grid-template-columns: 0.5fr 0.5fr 1fr 0.8fr; }
-  .fontFooter{
-    color: var(--white);
-    font-size: 100%;
-    align-items: center;
-    text-align: center;
-   
-  }
-
-
-
   /**
    * BACK TO TOP
    */
@@ -1403,21 +1387,24 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 
 }
 
+/* video */
+
 .videoType{
   text-align: center;
   font-size: var(--fs-35);
   color: var(--white);
   text-transform: uppercase;
-  margin: 30px;
+  margin: 5%;
 } 
-/* 
-#myVideo {.
 
- 
-  
+#myVideo {
+  height: 100vh;
+  width: 50%;
+}
 
- 
-} */
+.videoTxt{
+  display: flex;
+}
 
 .ytVideo{
   background-color: black;
@@ -1427,3 +1414,51 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
   color: aliceblue;
 }
 
+
+/* visagismo */
+
+.visagismo{
+  font-size: var(--fs-35);
+  text-align: center;
+  color: var(--indian-yellow);
+ margin: 2%;
+}
+.content{
+  display: flex;
+  text-align: center;
+
+
+}
+
+.imgContainer{
+  overflow: hidden; 
+}
+
+.visagismoImg{
+  height: 50%;
+  max-width: 100%;
+
+  
+
+}
+.visagismoTxt{
+  color: var(--indian-yellow);
+
+
+}
+
+
+
+/**
+   * FOOTER
+   */
+
+   .footer-link-box { grid-template-columns: 0.5fr 0.5fr 1fr 0.8fr; }
+   .fontFooter{
+     color: var(--white);
+     font-size: 100%;
+     align-items: center;
+     text-align: center;
+    
+   }
+ 
