@@ -717,7 +717,7 @@ textarea.input-field {
 
 .footer-brand {
   border: 1px solid var(--white_10);
-  margin-block-end: 70px;
+  margin-block-end: 5px;
 }
 
 .footer .logo {
@@ -1437,7 +1437,7 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 .imgContainer{
   overflow: hidden; 
 }
-
+x
 .visagismoImg{
   width: auto;
   height: auto;
@@ -1460,6 +1460,8 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
    * FOOTER/rodapé
    */
 
+  
+  
    .footer-link-box { grid-template-columns: 0.5fr 0.5fr 1fr 0.8fr; }
    .fontFooter{
      color: var(--white);
