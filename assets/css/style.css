@@ -1437,7 +1437,7 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 .imgContainer{
   overflow: hidden; 
 }
-
+x
 .visagismoImg{
   width: auto;
   height: auto;
@@ -1460,9 +1460,7 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
    * FOOTER/rodapé
    */
 
-   .allFooter{
-    height: 60%;
-   }
+  
   
    .footer-link-box { grid-template-columns: 0.5fr 0.5fr 1fr 0.8fr; }
    .fontFooter{
