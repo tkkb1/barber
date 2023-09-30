@@ -108,7 +108,7 @@ addEventOnElem(filterBtns, "click", filter);
   
   document.querySelector('a[href="#pricing"]').addEventListener('click', function (e) {
     e.preventDefault();
-    scrollToSection('#pricing');
+    scrollToSection('#Planos e preços');
   });
 
   document.querySelector('a[href="#visagismoId"]').addEventListener('click', function (e) {
