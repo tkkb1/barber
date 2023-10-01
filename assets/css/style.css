@@ -1444,7 +1444,9 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 }
 
 .imgContainer{
-  overflow: hidden; 
+ display: flex;
+ justify-content: right; 
+ align-items: flex-end;
 }
 x
 .visagismoImg{
@@ -1480,26 +1482,3 @@ x
     
    }
  
-
-   .content {
-    display: flex; 
-    height: auto; 
-  }
-  
-  .image-container {
-    flex: 1; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .imgContainer {
-    --width: 100%; 
-    --height: auto;
-  }
-  
-
-  
-  
-  
