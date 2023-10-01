@@ -116,5 +116,22 @@ addEventOnElem(filterBtns, "click", filter);
     scrollToSection('#visagismoDs');
   });
   
- 
-  
+ /**
+ * define o tamanho do video
+ */
+
+  var player;
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('myVideo', {
+      videoId: 'xXuDMMDU2r4&t=7s',
+      events: {
+        'onReady': onPlayerReady
+      }
+    });
+  }
+
+  function onPlayerReady(event) {
+    var windowWidth = window.innerWidth;
+    var windowHeight = window.innerHeight;
+    player.setSize(windowWidth, windowHeight);
+  }

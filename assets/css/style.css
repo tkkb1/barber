@@ -39,7 +39,7 @@
   --white_50: hsla(0, 0%, 100%, 0.5);
   --white: hsl(0, 0%, 100%);
   --jet: hsl(0, 0%, 21%);
-  .
+  
 
   /**
    * typography
@@ -1429,43 +1429,28 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 
 /* visagismo */
 
-.visagismo{
+.visagismoDs{
   font-family: 'Times New Roman', Times, serif;
-  font-size:80px ;
-  text-align: center;
+  font-size:80px;
   color: var(--indian-yellow);
   margin: 2%;
 }
 .content{
   display: flex;
-  text-align: center;
-
-
+  width: 50%; 
+  justify-content: left;
 }
 
 .imgContainer{
- display: flex;
  justify-content: right; 
- align-items: flex-end;
+ align-items: right; 
+ width: 50%; 
 }
-x
-.visagismoImg{
-  width: auto;
-  height: auto;
-  max-width: 100%;
-
-  
-
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column; 
+  }
 }
-.visagismoTxt{
-  color: var(--indian-yellow);
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 40px;
-
-
-}
- .txt
-
 
 /**
    * FOOTER/rodapé
@@ -1481,26 +1466,11 @@ x
      text-align: center;
     
    }
- 
-
-   .content {
-    display: flex; 
-    height: auto; 
+   @media screen and (max-width: 600px) {
+    .container {
+      flex-direction: column; 
+    }
   }
-  
-  .image-container {
-    flex: 1; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .imgContainer {
-    --width: 100%; 
-    --height: auto;
-  }
-  
 
   
   
