@@ -1483,3 +1483,26 @@ x
     
    }
  
+
+   .content {
+    display: flex; 
+    height: auto; 
+  }
+  
+  .image-container {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .imgContainer {
+    --width: 100%; 
+    --height: auto;
+  }
+  
+
+  
+  
+  
