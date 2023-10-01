@@ -1483,12 +1483,16 @@ x
     
    }
  
-
+   @media screen and (max-width: 768px) {
+    body {
+      flex-direction: column;
+    }
+  }
    .content {
     display: flex; 
     height: auto; 
   }
-  
+
   .image-container {
     flex: 1; 
     display: flex;
