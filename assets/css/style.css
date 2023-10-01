@@ -1420,10 +1420,7 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
   text-align: center;
 }
 
-.ytVideo{
-  overflow: hidden; 
-  background-color: black;
-}
+
 
 .colorFont{
   color: aliceblue;
