@@ -1437,20 +1437,17 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 }
 .content{
   display: flex;
-  width: 50%; 
-  justify-content: left;
+  width: 80%; 
+  justify-content: space-between;
+  align-items: center;
+  
+ 
+}
+@media screen and (max-width: 600px){
+  .content
 }
 
-.imgContainer{
- justify-content: right; 
- align-items: right; 
- width: 50%; 
-}
-@media screen and (max-width: 600px) {
-  .container {
-    flex-direction: column; 
-  }
-}
+
 
 /**
    * FOOTER/rodapé
