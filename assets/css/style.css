@@ -333,6 +333,7 @@ body {
   font-weight: var(--fw-600);
   text-transform: uppercase;
   line-height: 1.4;
+  
 }
 
 .logo .span {
@@ -1443,9 +1444,7 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
   
  
 }
-@media screen and (max-width: 600px){
-  .content
-}
+  
 
 
 
