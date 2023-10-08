@@ -476,7 +476,7 @@ body {
 
 .pricing::before {
   inset: 0;
-  background-color: var(--eerie-black-2_85);
+  background-color:black;
   mix-blend-mode: multiply;
   z-index: -1;
 }
@@ -1391,18 +1391,27 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 
 /* video */
 
+.titleWorkshop{
+  display: flex;
+  justify-content: center;
+  font-size: var(--fs-35);
+  color:var(--white);
+  background-color: black;
+}
+
 .videoType{
   text-align: center;
   font-size: var(--fs-35);
   color: var(--white);
   text-transform: uppercase;
-  margin: 5%;
+  /* margin: 5%; */
 } 
 
 #workshopDs {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
+  background-color: black;
 }
 
 
@@ -1484,7 +1493,6 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
    .footer-link-box { grid-template-columns: 0.5fr 0.5fr 1fr 0.8fr; }
    .fontFooter{
      color: var(--white);
-     font-size: 100%;
      align-items: center;
      text-align: center;
     
