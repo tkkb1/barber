@@ -1436,16 +1436,43 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
   color: var(--indian-yellow);
   margin: 2%;
 }
-.content{
+.visagismo_content{
   display: flex;
-  width: 80%; 
-  justify-content: space-between;
   align-items: center;
-  
- 
+  justify-content: space-between;
+  flex-direction: row;
 }
-  
+.visagismo_content2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.text-container{
+  width: 500px;
+}
+.imgContainer{
+ justify-content: center; 
+ align-items: center; 
+}
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column; 
+  }
 
+  .text-container{
+    width: 250px;
+  }
+
+  .foto_mobile{
+    margin: 0 auto;
+    width: 250px;
+  }
+
+  .logoheader{
+    display: flex;
+    flex-direction: row;
+}
+  }
 
 
 /**
@@ -1462,11 +1489,7 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
      text-align: center;
     
    }
-   @media screen and (max-width: 600px) {
-    .container {
-      flex-direction: column; 
-    }
-  }
+  
 
   
   
