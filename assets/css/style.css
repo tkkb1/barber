@@ -1416,19 +1416,7 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
   height: 100%;
 }
 
-
-
-.videoTxt{
-  display: flex;
-  text-align: center;
-}
-
-
-
-.colorFont{
-  color: aliceblue;
-}
-
+ 
 
 /* visagismo */
 
