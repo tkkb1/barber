@@ -1459,12 +1459,35 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
   margin: 5%;
   
 }
+.curso_content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction:row-reverse;
+}
+
+  @media screen and (max-width: 600px) {
+    .container {
+      flex-direction: column; 
+    }
+  
+    .text-container{
+      width: 250px;
+    }
+  
+    .foto_mobile{
+      margin: 0 auto;
+      width: 250px;
+    }
+  
+    .logoheader{
+      display: flex;
+      flex-direction: row;
+  }
+}
 
 
 
-
-
- 
 
 
 
