@@ -214,7 +214,7 @@ body {
   font-size: var(--fs-40);
 }
 
-.h2,
+
 .h3 { color: var(--eerie-black-1); }
 
 .h2 { font-size: var(--fs-30); }
@@ -264,6 +264,11 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* COLOR TITLE SERVICE VISAGISMO CURSOS */
+.color-title{
+  color: black;
 }
 
 
@@ -399,6 +404,9 @@ body {
   --section-padding: 100px;
   padding-block-start: calc(var(--section-padding) + 40px);
   background-position: left;
+}
+.hero-font{
+  font-family: 'Source Serif 4', serif;
 }
 
 .hero::before {
@@ -567,58 +575,6 @@ body {
 
 
 
-/*-----------------------------------*\
-  #GALLERY
-\*-----------------------------------*/
-
-.title-wrapper { margin-block-end: 60px; }
-
-.gallery .section-text { margin-block: 12px 15px; }
-
-.gallery-card { position: relative; }
-
-.gallery-card .card-banner .img-cover { transition: var(--transition-2); }
-
-.gallery-card:is(:hover, :focus-within) .card-banner .img-cover { transform: scale(1.1); }
-
-.gallery-card .card-content {
-  position: absolute;
-  inset: 15px;
-  background-color: var(--eerie-black-2_85);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  opacity: 0;
-  transform: scale(0.8);
-  transition: var(--transition-2);
-}
-
-.gallery-card:is(:hover, :focus-within) .card-content {
-  opacity: 1;
-  transform: scale(1);
-}
-
-.gallery-card :is(.card-title, .card-text) { color: var(--white); }
-
-.gallery-card .card-btn {
-  background-color: var(--white);
-  color: var(--indian-yellow);
-  font-size: 18px;
-  padding: 16px;
-  border-radius: var(--radius-5);
-  margin-block-start: 12px;
-  transition: var(--transition-1);
-}
-
-.gallery-card .card-btn:is(:hover, :focus) {
-  background-color: var(--indian-yellow);
-  color: var(--white);
-}
-
-
-
 
 
 /*-----------------------------------*\
@@ -628,6 +584,8 @@ body {
 .appoin { padding-block-start: 0; }
 
 .appoin-card .card-banner { display: none; }
+
+
 
 .appoin-card .card-content {
   background-color: var(--indian-yellow);
@@ -1390,34 +1348,6 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 
 }
 
-/* video */
-
-.titleWorkshop{
-  display: flex;
-  justify-content: center;
-  font-size: var(--fs-35);
-  color:var(--white);
-  background-color: black;
-}
-
-
-#workshopDs {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  background-color: black;
-}
-
-
-#myVideo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
- 
 
 /* visagismo */
 
@@ -1466,7 +1396,139 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
     display: flex;
     flex-direction: row;
 }
-  }
+}
+
+
+
+
+
+
+
+
+/* video */
+
+.titleWorkshop{
+  display: flex;
+  justify-content: center;
+  font-size: var(--fs-35);
+  color:var(--white);
+  background-color: black;
+}
+
+
+#workshopDs {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  background-color: black;
+}
+
+
+#myVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+/* CURSOS */
+.logoCursos{
+  width: 400px;
+  height: 400px;
+  display: flex;
+
+}
+.titleCursos{
+ 
+  justify-content: center;
+  align-items: center;
+ }
+.headerCursos{
+  display: flex;
+  align-items: center;
+}
+
+.cursosP{
+
+  margin: 3%;
+  
+}
+
+
+
+
+
+ 
+
+
+
+  /*-----------------------------------*\
+  #GALLERY
+\*-----------------------------------*/
+
+.title-wrapper { margin-block-end: 60px; }
+
+.gallery .section-text { margin-block: 12px 15px; }
+
+.gallery-card { position: relative; }
+
+.gallery-card .card-banner .img-cover { transition: var(--transition-2); }
+
+.gallery-card:is(:hover, :focus-within) .card-banner .img-cover { transform: scale(1.1); }
+
+.gallery{
+  background-color: black;
+}
+
+.title-gallery{
+  color: white;
+}
+
+.gallery-card .card-content {
+  position: absolute;
+  inset: 15px;
+  background-color: var(--eerie-black-2_85);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: var(--transition-2);
+}
+
+.gallery-card:is(:hover, :focus-within) .card-content {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.gallery-card :is(.card-title, .card-text) { color: var(--white); }
+
+.gallery-card .card-btn {
+  background-color: var(--white);
+  color: var(--indian-yellow);
+  font-size: 18px;
+  padding: 16px;
+  border-radius: var(--radius-5);
+  margin-block-start: 12px;
+  transition: var(--transition-1);
+}
+
+.gallery-card .card-btn:is(:hover, :focus) {
+  background-color: var(--indian-yellow);
+  color: var(--white);
+}
+
+
+
+
 
 
 /**
