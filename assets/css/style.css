@@ -401,9 +401,13 @@ body {
 \*-----------------------------------*/
 
 .hero {
+  background-image: url(/assets/images/esthevanDeTerninho.jpg);
   --section-padding: 100px;
   padding-block-start: calc(var(--section-padding) + 40px);
   background-position: left;
+}
+.backgroundImg{
+  background-image: url(/assets/images/esthevanDeTerninho.jpg);
 }
 .hero-font{
   font-family: 'Source Serif 4', serif;
