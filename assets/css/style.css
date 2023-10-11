@@ -1459,11 +1459,18 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
   margin: 5%;
   
 }
+.color-titleCurso{
+  color: black;
+ 
+}
 .curso_content{
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction:row-reverse;
+}
+.secondCurso{
+  margin: 5%;
 }
 
   @media screen and (max-width: 600px) {
