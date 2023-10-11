@@ -115,6 +115,11 @@ addEventOnElem(filterBtns, "click", filter);
     e.preventDefault();
     scrollToSection('#visagismoDs');
   });
+
+  document.querySelector('a[href="#cursoDs"]').addEventListener('click', function (e) {
+    e.preventDefault();
+    scrollToSection('#cursoDs');
+  });
   
  /**
  * define o tamanho do video
