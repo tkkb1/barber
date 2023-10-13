@@ -191,6 +191,7 @@ body {
 }
 
 .has-bg-image {
+  background-image: url(/assets/images/esthevanDeTerninho.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
