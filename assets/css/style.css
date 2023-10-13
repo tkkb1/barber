@@ -369,7 +369,7 @@ body {
 }
 
 .navbar.active {
-  max-height: 342px;
+  max-height: 321px;
   transition-duration: 0.5s;
 }
 
@@ -1195,6 +1195,8 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
   .pricing-card { height: 100%; }
 
   .pricing-card .card-banner { flex-shrink: 0; }
+
+ 
 
 
 
