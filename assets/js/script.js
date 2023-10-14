@@ -105,6 +105,11 @@ addEventOnElem(filterBtns, "click", filter);
     e.preventDefault();
     scrollToSection('#workshopDs');
   });
+
+  document.querySelector('a[href="#cursoDs"]').addEventListener('click', function (e) {
+    e.preventDefault();
+    scrollToSection('#cursoDs');
+  });
   
   document.querySelector('a[href="#pricing"]').addEventListener('click', function (e) {
     e.preventDefault();
