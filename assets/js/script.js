@@ -120,6 +120,11 @@ addEventOnElem(filterBtns, "click", filter);
     e.preventDefault();
     scrollToSection('#visagismoDs');
   });
+
+
+ 
+
+  
   
  /**
  * define o tamanho do video
