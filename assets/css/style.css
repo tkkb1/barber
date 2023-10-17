@@ -794,7 +794,7 @@ textarea.input-field {
 }
 
 .footer-list-item ion-icon {
-  color: var(--indian-yellow);
+  color: white;
   font-size: 18px;
   flex-shrink: 0;
   --ionicon-stroke-width: 50px;
