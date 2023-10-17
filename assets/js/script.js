@@ -90,6 +90,26 @@ const filter = function () {
 
 addEventOnElem(filterBtns, "click", filter);
 
+
+document.querySelector('.corte-btn').addEventListener('click', function() {
+  const corte = document.querySelector('[data-filter-btn="body-treatments"]');
+  filter.call(corte);
+});
+
+document.querySelector('.barba-btn').addEventListener('click', function() {
+  const barba = document.querySelector('[data-filter-btn="shaving"]');
+  filter.call(barba);
+});
+document.querySelector('.quimica-btn').addEventListener('click', function() {
+  const combo = document.querySelector('[data-filter-btn="meditations"]');
+  filter.call(combo);
+});
+document.querySelector('.combo-btn').addEventListener('click', function() {
+  const quimica = document.querySelector('[data-filter-btn="face-washing"]');
+  filter.call(quimica);
+});
+
+
 /**
  * direcionamento dos botoes
 //  */
@@ -120,8 +140,7 @@ addEventOnElem(filterBtns, "click", filter);
     e.preventDefault();
     scrollToSection('#visagismoDs');
   });
-
-
+  
  
 
   

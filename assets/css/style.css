@@ -456,10 +456,12 @@ body {
   transition: var(--transition-1);
 }
 
+
 .service-card .card-title:is(:hover, :focus) { color: var(--indian-yellow); }
 
 .service-card .card-text { margin-block-end: 30px; }
 
+ /* .barba-btn .combo-btn .quimica-btn */
 .service-card .card-btn {
   color: var(--indian-yellow);
   background-color: var(--white);
@@ -476,6 +478,10 @@ body {
   background-color: var(--indian-yellow);
   color: var(--white);
 }
+
+
+ 
+  
 
 
 
@@ -1565,8 +1571,8 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 
 
 
-/**
-   * FOOTER/rodapé
+
+   /* * FOOTER/rodapé
    */
 
   
