@@ -92,7 +92,7 @@ addEventOnElem(filterBtns, "click", filter);
 
 /**
  * direcionamento dos botoes
- */
+//  */
 
   function scrollToSection(destinationId) {
     const secaoDestino = document.querySelector(destinationId);
