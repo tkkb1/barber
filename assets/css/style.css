@@ -860,7 +860,38 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
+.backgroundImg {
+  background-image: url('sua-imagem.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh; /* Define altura igual a 100% da viewport */
+}
 
+@media (max-width: 1200px) {
+  .backgroundImg {
+    height: 80vh; /* Ajusta a altura para telas menores */
+  }
+}
+
+@media (max-width: 992px) {
+  .backgroundImg {
+    height: 60vh; /* Ajusta a altura para tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .backgroundImg {
+    height: 50vh; /* Ajusta a altura para telas de smartphones */
+  }
+}
+
+@media (max-width: 576px) {
+  .backgroundImg {
+    height: 40vh; /* Ajusta a altura para telas menores de smartphones */
+  }
+}
 /**
  * responsive for large than 575px screen
  */
