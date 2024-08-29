@@ -190,7 +190,7 @@ body {
   content: "";
 }
 .backgroundImg{
-  background-image: url("/barber/assets/images/PHOTO-2024-08-29-13-32-09\ \(1\).png") ;
+  background-image: url("./assets/images/PHOTO-2024-08-29-13-32-09\ \(1\).png") ;
 }
 
 .has-bg-image {
