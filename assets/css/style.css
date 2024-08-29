@@ -153,7 +153,7 @@ html {
 
 body {
   background-color: var(--white);
-  color: var(--sonic-silver);
+  color: #D2E447;
   font-size: 1.6rem;
   line-height: 2;
 }
@@ -189,12 +189,17 @@ body {
   position: absolute;
   content: "";
 }
+.backgroundImg{
+  background-image: url(/barber/assets/images/logonovoEsthevan2.jpeg) ;
+}
 
 .has-bg-image {
-  background-image: url(/assets/images/esthevanDeTerninho.jpg);
+  /* background-image: url(/barber/assets/images/logonovoEsthevan2.jpeg); */
+  background-color: #20222E;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  max-width: 100%;
 }
 
 .h1,
@@ -223,7 +228,7 @@ body {
 .h3 { font-size: var(--fs-24); }
 
 .btn {
-  color: var(--white);
+  color:#D2E447;
   background-color: var(--indian-yellow);
   display: flex;
   align-items: center;
@@ -269,7 +274,7 @@ body {
 
 /* COLOR TITLE SERVICE VISAGISMO CURSOS */
 .color-title{
-  color: black;
+  color: white;
   text-align: center;
 }
 
@@ -303,7 +308,7 @@ body {
   transition: var(--transition-1);
 }
 
-.header-top-list .social-link:is(:hover, :focus) { color: var(--indian-yellow); }
+.header-top-list .social-link:is(:hover, :focus) { color: #20222E}
 
 .header-bottom {
   position: absolute;
@@ -318,7 +323,7 @@ body {
 .header-bottom.active {
   position: fixed;
   top: 0;
-  background-color: var(--rich-black-fogra-39);
+  background-color:#20222E;
   transform: translateY(-100%);
   animation: slideIn 0.5s ease forwards;
 }
@@ -392,7 +397,7 @@ body {
   transition: var(--transition-1);
 }
 
-.navbar-link:is(:hover, :focus) { color: var(--indian-yellow); }
+.navbar-link:is(:hover, :focus) { color: #D2E447; }
 
 
 
@@ -463,7 +468,7 @@ body {
 
  /* .barba-btn .combo-btn .quimica-btn */
 .service-card .card-btn {
-  color: var(--indian-yellow);
+  color: #20222E;
   background-color: var(--white);
   max-width: max-content;
   margin-inline: auto;
@@ -493,20 +498,20 @@ body {
 
 .pricing::before {
   inset: 0;
-  background-color:black;
+  /* background-color:#20222E; */
   mix-blend-mode: multiply;
   z-index: -1;
 }
 
-.pricing .section-title { color: var(--white); }
+.pricing .section-title { color: white; }
 
 .pricing .section-text {
   margin-block: 15px 55px;
-  color: var(--white_50);
+  color: white;
 }
 
 .pricing-tab-container {
-  background-color: var(--white);
+  background-color: #2F313D;
   padding: 40px 5px;
 }
 
@@ -533,7 +538,7 @@ body {
 .filter-btn .btn-icon { display: none; }
 
 .filter-btn.active {
-  background-color: var(--indian-yellow);
+  background-color: #20222E;
   border-color: var(--indian-yellow);
   color: var(--white);
 }
@@ -550,7 +555,7 @@ body {
 }
 
 .pricing-card {
-  background-color: var(--indian-yellow_10);
+  background-color: #20222E;
   padding: 20px 25px;
   border-radius: var(--radius-5);
   display: flex;
@@ -573,7 +578,7 @@ body {
 }
 
 .pricing-card .card-price {
-  color: whitesmoke;
+  color:#D2E447;
   font-family: var(--ff-oswald);
   font-size: var(--fs-30);
   font-weight: var(--fw-500);
@@ -1362,9 +1367,10 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 /* visagismo */
 
 .visagismoDs{
+ background-color: #2F313D;
   font-family: 'Times New Roman', Times, serif;
   font-size:80px;
-  color: var(--indian-yellow);
+  /* color: var(--indian-yellow); */
   margin: 2%;
 }
 .visagismo_content{
@@ -1422,7 +1428,7 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
   justify-content: center;
   font-size: var(--fs-35);
   color:var(--white);
-  background-color: black;
+  background-color: #20222E;
 }
 
 
@@ -1430,7 +1436,7 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
-  background-color: black;
+  background-color:#20222E;
 }
 
 
@@ -1523,7 +1529,7 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 .gallery-card:is(:hover, :focus-within) .card-banner .img-cover { transform: scale(1.1); }
 
 .gallery{
-  background-color: black;
+  background-color: #20222E;
 }
 
 .title-gallery{
