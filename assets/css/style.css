@@ -860,36 +860,34 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
-.backgroundImg {
-  background-image: url('sua-imagem.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100vh; /* Define altura igual a 100% da viewport */
-}
-
 @media (max-width: 1200px) {
   .backgroundImg {
-    height: 80vh; /* Ajusta a altura para telas menores */
+    width: 90%; /* Ajusta a largura */
+    height: 90vh; /* Ajusta a altura */
   }
 }
 
+/* Telas médias (tablets, etc.) */
 @media (max-width: 992px) {
   .backgroundImg {
-    height: 60vh; /* Ajusta a altura para tablets */
+    width: 80%;
+    height: 80vh;
   }
 }
 
+/* Telas pequenas (smartphones) */
 @media (max-width: 768px) {
   .backgroundImg {
-    height: 50vh; /* Ajusta a altura para telas de smartphones */
+    width: 70%;
+    height: 70vh;
   }
 }
 
+/* Telas muito pequenas (smartphones pequenos) */
 @media (max-width: 576px) {
   .backgroundImg {
-    height: 40vh; /* Ajusta a altura para telas menores de smartphones */
+    width: 60%;
+    height: 60vh;
   }
 }
 /**
