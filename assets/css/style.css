@@ -862,7 +862,7 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 \*-----------------------------------*/
 @media (max-width: 1200px) {
   .backgroundImg {
-    width: 90%; /* Ajusta a largura */
+    width: 100%; /* Ajusta a largura */
     height: 90vh; /* Ajusta a altura */
   }
 }
@@ -870,7 +870,7 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 /* Telas médias (tablets, etc.) */
 @media (max-width: 992px) {
   .backgroundImg {
-    width: 80%;
+    width: 100%;
     height: 80vh;
   }
 }
@@ -878,7 +878,7 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 /* Telas pequenas (smartphones) */
 @media (max-width: 768px) {
   .backgroundImg {
-    width: 70%;
+    width: 100%;
     height: 70vh;
   }
 }
@@ -886,7 +886,7 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 /* Telas muito pequenas (smartphones pequenos) */
 @media (max-width: 576px) {
   .backgroundImg {
-    width: 60%;
+    width: 100%;
     height: 60vh;
   }
 }
