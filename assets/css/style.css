@@ -190,7 +190,7 @@ body {
   content: "";
 }
 .backgroundImg{
-  background-image: url(/barber/assets/images/logonovoEsthevan2.jpeg) ;
+  background-image: url("/barber/assets/images/logonovoEsthevan2.jpg") ;
 }
 
 .has-bg-image {
