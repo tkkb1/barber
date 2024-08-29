@@ -147,12 +147,12 @@ address { font-style: normal; }
 
 html {
   font-family: var(--ff-rubik);
-  font-size: 10px;
+  font-size: 10px;1
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: var(--white);
+  background-color:#2F313D;
   color: #D2E447;
   font-size: 1.6rem;
   line-height: 2;
@@ -957,13 +957,13 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
   }
 
   .header-top-item .item-title {
-    color: var(--eerie-black-1);
+    /* color: var(--eerie-black-1); */
     font-weight: var(--fw-500);
   }
 
   .header-top-item .item-link { transition: var(--transition-1); }
 
-  .header-top-item .item-link:is(:hover, :focus) { color: var(--indian-yellow); }
+  .header-top-item .item-link:is(:hover, :focus) { color: #D2E447; }
 
   .header-top-list { justify-content: space-between; }
 
